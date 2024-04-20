@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.topbar{
+    height: 500px;
+    /* border: 1px red solid; */
+    background-image: url('/mountain-day.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Consolas;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.navbar{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    padding-left: 10px;
+    list-style: none;
+    font-size: large;
+    font-family: cursive;
+}
+
+
+
+.btn-theme {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Adjust as needed */
+    border: none;
+    background-color: white;
+  }
+  
+
+
+  .suun{
+    position: relative;
+    top: 70px;
+    left: 850px;
+    height: 60px;
+    width: 80px;
+  }
+
+  .mooon{
+    visibility: hidden;
+    position: relative;
+    top: 70px;
+    left: 785px;
+    height: 50px;
+    width: 50px;
+  }
+
+
+  .cloud{
+    position: relative;
+    top: 250px;
+    left: 50px;
+    height: 50px;
+    width: 100px;
+    animation: move 5s infinite alternate ease;
+  }
+
+  .cloud-1{
+    position: relative;
+    top: 180px;
+    left: 180px;
+    height: 50px;
+    width: 100px;
+    animation: move 5s infinite alternate ease;
+  }
+
+  .cloud-2{
+    position: relative;
+    top: 250px;
+    left: 850px;
+    height: 50px;
+    width: 100px;
+    animation: move 5s infinite alternate ease;
+  }
+
+  .cloud-3{
+    position: relative;
+    top: 180px;
+    left: 525px;
+    height: 50px;
+    width: 100px;
+    animation: move 5s infinite alternate-reverse ease;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(40px);
+    }
+  }
+
+
+.middle{
+    border: 2px #00C7EB solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+.bottom h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Consolas;
+}
+
+.bottom p{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: cursive;
+}

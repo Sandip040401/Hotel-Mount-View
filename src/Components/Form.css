@@ -1,0 +1,32 @@
+
+.booking-form{
+    display: flex;
+}
+
+.form-btn{
+    margin-top: 25px;
+    border-color: #00C7EB;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+.form-number{
+    margin-top: 10px;
+    border-color: #00C7EB;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+}
+
+.form-name{
+    margin-top: 10px;
+    border-color: #00C7EB;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.label-name{
+    font-family: cursive;
+}
+
