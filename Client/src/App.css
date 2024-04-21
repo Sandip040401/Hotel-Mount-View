@@ -128,7 +128,7 @@ h1{
 .bottom h2{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 120px;
   font-size: 30px;
   font-family: Consolas;
 }
@@ -136,7 +136,47 @@ h1{
 .bottom p{
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 15px;
   font-family: cursive;
+}
+
+.amenities h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: Consolas;
+}
+
+.amenities .container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 100px;
+  width: calc(40% - 20px); /* Adjusted width for two columns with some margin */
+  border: 2px #00C7EB solid;
+  margin: 20px; /* Margin between cards */
+  border-radius: 10px;
+  display: flex;
+  justify-content:flex-start;
+} 
+
+
+.svg-logo {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.svg-text{
+  margin-top: 40px;
+}
+
+.svg-text h3{
+  font-family: cursive;
+  font-weight: 500;
 }

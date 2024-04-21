@@ -1,15 +1,35 @@
-import React, { useState } from 'react';
-import './Form.css'
+import React, { useState, useEffect } from 'react';
+import './Form.css';
+
 function HotelCheckinForm() {
     const [checkinDate, setCheckinDate] = useState('');
     const [checkoutDate, setCheckoutDate] = useState('');
     const [numAdults, setNumAdults] = useState(1);
     const [numChildren, setNumChildren] = useState(0);
     const [numRooms, setNumRooms] = useState(1);
+    const [submitted, setSubmitted] = useState(false);
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you can handle form submission, for example, sending the form data to a backend server
+        setSubmitted(true);
     };
+
+    useEffect(() => {
+        if (submitted) {
+            // Construct the message with form data
+            const message = `Check-in Date: ${checkinDate}\nCheck-out Date: ${checkoutDate}\nNumber of Adults: ${numAdults}\nNumber of Children: ${numChildren}\nNumber of Rooms: ${numRooms}`;
+
+            // Replace 'whatsapp_number' with the recipient's WhatsApp number
+            const whatsappNumber = '917002880402';
+
+            // Encode the message and prepare it for the deep link
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappLink = `https://wa.me/${whatsappNumber}/?text=${encodedMessage}`;
+
+            // Redirect the user to WhatsApp
+            window.location.href = whatsappLink;
+        }
+    }, [submitted, checkinDate, checkoutDate, numAdults, numChildren, numRooms]);
 
     return (
         <div>
