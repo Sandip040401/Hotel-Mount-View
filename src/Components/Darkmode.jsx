@@ -4,9 +4,9 @@ function DarkMode(){
     return(
         <>
             <input type="checkbox" className='theme-input'  id="darkmode-toggle"/>
-            <label for="darkmode-toggle" className='theme'>
-            <svg version="1.1" className="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 496 496" style={{enablebackground:'new 0 0 496 496'}} xml:space="preserve">
+            <label htmlFor="darkmode-toggle" className='theme'>
+            <svg version="1.1" className="sun" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 496 496" style={{enablebackground:'new 0 0 496 496'}} xmlSpace="preserve">
 
             <rect x="152.994" y="58.921" transform="matrix(0.3827 0.9239 -0.9239 0.3827 168.6176 -118.5145)" width="40.001" height="16"/>
             <rect x="46.9" y="164.979" transform="matrix(0.9239 0.3827 -0.3827 0.9239 71.29 -12.4346)" width="40.001" height="16"/>
@@ -33,8 +33,8 @@ function DarkMode(){
             <rect x="424" y="240" width="72" height="16"/>
             <rect x="389.911" y="62.091" transform="matrix(0.7071 0.7071 -0.7071 0.7071 185.9067 -252.6357)" width="16" height="71.999"/>
             </svg>
-          <svg version="1.1" className="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 49.739 49.739" style={{enablebackground: 'new 0 0 49.739 49.739'}} xml:space="preserve">
+          <svg version="1.1" className="moon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 49.739 49.739" style={{enablebackground: 'new 0 0 49.739 49.739'}} xmlSpace="preserve">
           <path d="M25.068,48.889c-9.173,0-18.017-5.06-22.396-13.804C-3.373,23.008,1.164,8.467,13.003,1.979l2.061-1.129l-0.615,2.268
             c-1.479,5.459-0.899,11.25,1.633,16.306c2.75,5.493,7.476,9.587,13.305,11.526c5.831,1.939,12.065,1.492,17.559-1.258v0
             c0.25-0.125,0.492-0.258,0.734-0.391l2.061-1.13l-0.585,2.252c-1.863,6.873-6.577,12.639-12.933,15.822

@@ -1,0 +1,49 @@
+
+.restaurant h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: Consolas;
+  }
+  
+  .restaurant .container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .restaurant .container .card{
+    height: 100px;
+    width:  45%;
+    border: 2px #00C7EB solid;
+    margin: 20px; /* Margin between cards */
+    border-radius: 10px;
+    display: flex;
+    justify-content:flex-start;
+  }
+  
+  .restaurant .container .card h3{
+    font-family: Consolas;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  
+  .item{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+  
+  
+  
+  .items p{
+    font-family: cursive;
+  }
+  
+  
+  
