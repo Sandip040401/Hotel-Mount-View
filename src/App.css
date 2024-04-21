@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+img {
+  transition: transform 0.5s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
 
 .topbar{
     height: 500px;
@@ -141,42 +147,51 @@ h1{
   font-family: cursive;
 }
 
-.amenities h2{
+
+.restaurant h2{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
   font-size: 30px;
   font-family: Consolas;
 }
 
-.amenities .container {
+.restaurant .container{
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
-.card {
+.restaurant .container .card{
   height: 100px;
-  width: calc(40% - 20px); /* Adjusted width for two columns with some margin */
+  width:  45%;
   border: 2px #00C7EB solid;
   margin: 20px; /* Margin between cards */
   border-radius: 10px;
   display: flex;
   justify-content:flex-start;
-} 
+}
 
+.restaurant .container .card h3{
+  font-family: Consolas;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
 
-.svg-logo {
+.item{
+  display: flex;
+  width: 100%;
   margin-top: 10px;
-  margin-left: 50px;
+  justify-content: space-around;
 }
 
-.svg-text{
-  margin-top: 40px;
-}
 
-.svg-text h3{
+
+.items p{
   font-family: cursive;
-  font-weight: 500;
 }
+
+
