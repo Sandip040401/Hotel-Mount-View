@@ -62,7 +62,7 @@
 }
 .theme svg.moon {
 	left:70px;
-	fill:#7e7e7e;
+	fill:#7e7e7e00;
 	transition: 0.5s;
 }
 .theme-input:checked + .theme svg.sun {
@@ -71,3 +71,40 @@
 .theme-input:checked + .theme svg.moon {
 	fill:#fff;
 }
+
+
+@media (max-width: 575.98px) {
+	.theme{
+		width: 45px;
+	}
+
+	.theme svg.moon {
+		left: 12px;
+	}
+
+	.theme-input:checked + label:after {
+		top: 6px;
+		left: 37px;
+	}
+
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+	.theme{
+		width: 45px;
+	}
+
+	.theme svg.moon {
+		left: 12px;
+	}
+
+	.theme-input:checked + label:after {
+		top: 6px;
+		left: 37px;
+	}
+
+  }
+ 
+
+
+
