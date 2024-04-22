@@ -1,0 +1,15 @@
+:root {
+    --body_background: white;
+    --body_color: black;
+    --background_image: url('/mountain-day.png');
+    --svg_image: url('/sun.png');
+    --cloud: url('/cloud.png');
+}
+
+[data-theme="dark"]{
+    --body_background: black;
+    --body_color: white;
+    --background_image: url('/mountain-night.png');
+    --svg_image: url('/moon.png');
+    --cloud: url('/black.png')
+}

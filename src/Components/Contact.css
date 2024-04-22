@@ -61,14 +61,14 @@
     border: 2px #00C7EB solid;
     padding: 5px;
     border-radius: 5px;
-    background-color: white;
+    background-color: var(--body_background);
     font-family: cursive;
     transition: transform 0.5s ease;
+    color: var(--body-color);
   }
   
   
   .object button:hover{
     transform: scale(1.1);
-    background-color: aqua;
   }
   

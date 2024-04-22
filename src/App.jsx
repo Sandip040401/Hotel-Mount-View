@@ -24,14 +24,11 @@ function App() {
         <button className='btn-theme'>
           <DarkMode/>
         </button>
-        <div className='sun-moon'>
-          <img className='suun'src="/sun.png" alt="" />
-          <img className='mooon' src="/moon.png" alt="" />
-          <img className='cloud' src="/cloud.png" alt="" />
-          <img className='cloud-1' src="/cloud.png" alt="" />
-          <img className='cloud-2' src="/cloud.png" alt="" />
-          <img className='cloud-3' src="/cloud.png" alt="" />
-        </div>
+          <div className='suun'></div>
+          <div className="cloud"></div>
+          <div className="cloud-1"></div>
+          <div className="cloud-2"></div>
+          <div className="cloud-3"></div>
       </div>
       <div className="middle">
         <HotelCheckinForm/>

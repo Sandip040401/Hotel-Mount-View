@@ -1,9 +1,22 @@
 import React from "react"
 import './Darkmode.css'
 function DarkMode(){
+
+  const setDarkmode = () => {
+    document.querySelector('body').setAttribute('data-theme','dark')
+  }
+
+  const setLightmode = () => {
+    document.querySelector('body').setAttribute('data-theme','light')
+  }
+
+  const toggleTheme = e => {
+    if(e.target.checked) setDarkmode();
+    else setLightmode();
+  }
     return(
         <>
-            <input type="checkbox" className='theme-input'  id="darkmode-toggle"/>
+            <input type="checkbox" className='theme-input'  id="darkmode-toggle" onChange={toggleTheme}/>
             <label htmlFor="darkmode-toggle" className='theme'>
             <svg version="1.1" className="sun" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 496 496" style={{enablebackground:'new 0 0 496 496'}} xmlSpace="preserve">

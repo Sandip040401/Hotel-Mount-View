@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: var(--body_background);
+    color: var(--body_color);
 }
 
 
@@ -9,7 +11,7 @@
 }
 
 ::-webkit-scrollbar-track{
-  background: white;
+  background-color: var(--body_background);
 }
 
 ::-webkit-scrollbar-thumb{
@@ -28,10 +30,11 @@ img:hover {
 .topbar{
     height: 500px;
     /* border: 1px red solid; */
-    background-image: url('/mountain-day.png');
+    background-image: var(--background_image);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: var(--body_background);
 }
 
 h1{
@@ -41,6 +44,7 @@ h1{
     font-family: Consolas;
     font-size: 40px;
     font-weight: 900;
+    color: var(--body_color);
 }
 
 .navbar{
@@ -58,6 +62,7 @@ h1{
     list-style: none;
     font-size: large;
     font-family: cursive;
+    color: var(--body_color);
 }
 
 
@@ -67,7 +72,7 @@ h1{
     top: 10px;
     right: 10px; /* Adjust as needed */
     border: none;
-    background-color: white;
+    background-color: var(--body_background);
   }
   
 
@@ -76,25 +81,24 @@ h1{
     position: relative;
     top: 70px;
     left: 850px;
-    height: 60px;
+    height: 100px;
     width: 80px;
+    background-image: var(--svg_image);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
-  .mooon{
-    visibility: hidden;
-    position: relative;
-    top: 70px;
-    left: 785px;
-    height: 50px;
-    width: 50px;
-  }
+  
 
 
   .cloud{
     position: relative;
-    top: 250px;
-    left: 50px;
+    top: 100px;
+    left: 300px;
     height: 50px;
+    background-image: var(--cloud);
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 100px;
     animation: move 5s infinite alternate ease;
   }
@@ -105,24 +109,32 @@ h1{
     left: 180px;
     height: 50px;
     width: 100px;
+    background-image: var(--cloud);
+    background-repeat: no-repeat;
+    background-size: contain;
     animation: move 5s infinite alternate ease;
   }
 
   .cloud-2{
     position: relative;
-    top: 250px;
-    left: 850px;
+    left: 1000px;
     height: 50px;
     width: 100px;
+    background-image: var(--cloud);
+    background-repeat: no-repeat;
+    background-size: contain;
     animation: move 5s infinite alternate ease;
   }
 
   .cloud-3{
     position: relative;
-    top: 180px;
-    left: 525px;
+    top: 50px;
+    left: 1100px;
     height: 50px;
     width: 100px;
+    background-image: var(--cloud);
+    background-repeat: no-repeat;
+    background-size: contain;
     animation: move 5s infinite alternate-reverse ease;
   }
 
@@ -142,9 +154,14 @@ h1{
     margin-right: 20%;
     padding: 20px;
     border-radius: 20px;
+    background-color: var(--body_background);
+    color: var(--body_color);
 }
 
-
+.bottom{
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
 
 .bottom h2{
   display: flex;
