@@ -30,9 +30,7 @@ function App() {
           <div className="cloud-2"></div>
           <div className="cloud-3"></div>
       </div>
-      <div className="middle">
         <HotelCheckinForm/>
-      </div>
       <div className="bottom">
         <h2>About Mount View, Pelling</h2>
         <p>Surrounded by <b><font size='4'>Virgin pine forest</font></b> and facing the majestic <b><font size='4'>Snow capped peaks</font></b> of the <b><font size='4'>Singalila range</font></b>,The Mount View Hotel, hosted on the hilltop of Pelling, Sikkim, revokes a personal rendezvous with the Himalayan range. The hotel serves as a vantage point for catching a glimpse of nature’s blessed creations like birds, sunrises and sunsets, culminating the perfect retreat coupled with a cozy old-world charm. We have, in offer the most elegant and expansive rooms which amalgamate modern amenities with an ambience reflecting everything.<br/><br/> <b><font size='4'>The Mount View Hotel</font></b> is providing the right blend of service and luxury. All-round excellence and unparalleled levels of service. Accommodation is available in neat and clean rooms, which are well appointed with modern in-room facilities.A distinctive feature of The Mount View Hotel is their highly motivated and well trained staff who provide exceptionally attentive, personalised and warm service. Mount View Hotel have established a reputation for redefining the paradigm of luxury and excellence.</p>

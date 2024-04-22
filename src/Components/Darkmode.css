@@ -87,6 +87,10 @@
 		left: 37px;
 	}
 
+	.theme:active:after {
+		width: 0;
+	}
+
   }
   
   @media (min-width: 576px) and (max-width: 767.98px) {
@@ -103,6 +107,9 @@
 		left: 37px;
 	}
 
+	.theme:active:after {
+		width: 0;
+	}
   }
  
 

@@ -1,6 +1,11 @@
 
 .booking-form{
     display: flex;
+    border: 2px #00C7EB solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .form-btn{
@@ -30,3 +35,329 @@
     font-family: cursive;
 }
 
+
+@media (max-width: 500px) {
+
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 1%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 150px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 150px;
+    }
+
+    .parent{
+        width: 150px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 150px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 150px;
+
+    }
+
+}
+  
+@media (min-width: 500px) and (max-width: 518px) {
+
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 230px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 230px;
+    }
+
+    .parent{
+        width: 230px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 230px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 230px;
+
+    }
+  }
+  
+  @media (min-width: 518px) and (max-width: 650px) {
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 250px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 250px;
+    }
+
+    .parent{
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 250px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 250px;
+
+    }
+  }
+  
+  @media (min-width: 650px) and (max-width: 700px) {
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 350px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 350px;
+    }
+
+    .parent{
+        width: 350px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 350px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 350px;
+
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 750px) {
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 2%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 400px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 400px;
+    }
+
+    .parent{
+        width: 400px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 400px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 400px;
+
+    }
+  }
+
+
+  @media (min-width: 750px) and (max-width: 800px) {
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 1%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 450px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 450px;
+    }
+
+    .parent{
+        width: 450px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 450px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 450px;
+
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 1%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 500px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 500px;
+    }
+
+    .parent{
+        width: 500px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 500px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 500px;
+
+    }
+  }
+
+  @media (min-width: 850px) and (max-width: 900px) {
+    .booking-form{
+        margin-left: 2%;
+        margin-right: 1%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .form-btn{
+        margin-left: 30%;
+    }
+    
+    .checkindate{
+        margin-left: 70px;
+        width: 550px;
+    }
+
+    .checkoutdate{
+        margin-left: 58px;
+        width: 550px;
+    }
+
+    .parent{
+        width: 550px;
+        margin-left: 40px;
+    }
+
+    .child{
+        margin-left: 26px;
+        width: 550px;
+
+    }
+
+    .rooms{
+        margin-left: 40px;
+        width: 550px;
+
+    }
+  }
+
+  

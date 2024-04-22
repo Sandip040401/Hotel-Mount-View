@@ -148,15 +148,6 @@ h1{
   }
 
 
-.middle{
-    border: 2px #00C7EB solid;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: var(--body_background);
-    color: var(--body_color);
-}
 
 .bottom{
   background-color: var(--body_background);
@@ -242,24 +233,120 @@ h1{
 
 @media (max-width: 575.98px) {
   h1{
-    font-size: 30px;
+    font-size: 25px;
   }
+
+  .navbar ul li{
+    font-size:small;
+  }
+
+  .cloud{
+    height: 30px;
+    width: 60px;
+    left: 5%;
+    top: 80px;
+  }
+
+  .cloud-1{
+    height: 30px;
+    width: 40px;
+    top: 100px;
+    left: 5px;
+    animation: move 5s infinite alternate-reverse ease;
+  }
+
+  .cloud-2{
+    height: 30px;
+    width: 60px;
+    top: 20px;
+  }
+
+  .cloud-3{
+    height: 30px;
+    width: 40px;
+    top:40px;
+  }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   h1{
     font-size: 30px;
   }
+
+  .navbar ul li{
+    font-size: medium;
+  }
+
+  .cloud{
+    height: 40px;
+    width: 60px;
+    left: 5%;
+    top: 80px;
+  }
+
+  .cloud-1{
+    height: 30px;
+    width: 45px;
+    top: 120px;
+    left: 5px;
+    animation: move 5s infinite alternate-reverse ease;
+  }
+
+  .cloud-2{
+    height: 40px;
+    width: 60px;
+    top: 10px;
+  }
+
+  .cloud-3{
+    height: 30px;
+    width: 50px;
+    top:40px;
+    left: 85%;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1{
       font-size: 30px;
     }
+
+    .navbar ul li{
+      font-size: medium;
+    }
+
+    .cloud{
+      left: 7%;
+    }
+
+    .cloud-1{
+      height: 50px;
+      width: 50px;
+      left: 5px;
+      top: 150px;
+      animation: move 5s infinite alternate-reverse ease;
+    }
+
+    .cloud-3{
+      height: 50px;
+      width: 50px;
+      left:86%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   h1{
     font-size: 30px;
+  }
+
+  .cloud{
+    left: 15%;
+  }
+
+  .cloud-1{
+    left: 2%;
   }
 }
