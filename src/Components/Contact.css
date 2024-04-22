@@ -1,0 +1,74 @@
+
+.contact h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: Consolas;
+  }
+  
+  .contact .container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact .container .card{
+    height: 100px;
+    width: calc(40% - 20px); /* Adjusted width for two columns with some margin */
+    border: 2px #00C7EB solid;
+    margin: 20px; /* Margin between cards */
+    border-radius: 10px;
+  }
+  
+  .add{
+    font-family: cursive;
+    font-size: 20px;
+  }
+  
+  .contact .container .card .items{
+    margin-left: 20%;
+  }
+  
+  .contact .container .card .items img{
+    margin-left: 30%;
+  }
+  
+  
+  .object h4{
+    font-family: cursive;
+    font-size: 18px;
+  }
+  
+  
+  .object{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+  
+  .object .objects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .object button{
+    height: 30px;
+    border: 2px #00C7EB solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: cursive;
+    transition: transform 0.5s ease;
+  }
+  
+  
+  .object button:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+  }
+  

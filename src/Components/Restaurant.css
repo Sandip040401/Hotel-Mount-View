@@ -39,6 +39,9 @@
     justify-content: space-around;
   }
   
+  .item .items{
+    flex-wrap: wrap;
+  }
   
   
   .items p{
