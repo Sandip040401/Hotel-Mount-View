@@ -36,7 +36,7 @@ function Restaurant(){
                         </div>
                         <div className="items">
                             <img width="60" height="60" src="https://img.icons8.com/doodle/96/tea--v1.png" alt="tea--v1"/>
-                            <p>Tea</p>
+                            <p>High Tea</p>
                         </div>
                         <div className="items">
                             <img width="60" height="60" src="https://img.icons8.com/officel/80/dinner.png" alt="dinner"/>
