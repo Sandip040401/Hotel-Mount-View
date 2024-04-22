@@ -149,11 +149,6 @@ h1{
 
 
 
-.bottom{
-  background-color: var(--body_background);
-  color: var(--body_color);
-}
-
 .bottom h2{
   display: flex;
   justify-content: center;
@@ -163,8 +158,8 @@ h1{
 }
 
 .bottom p{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 40px;
   font-size: 15px;
   font-family: cursive;
@@ -268,10 +263,42 @@ h1{
 
   }
 
+  .rates .container{
+    padding-left: 30px;
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+
+  .map .container{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .bottom h2{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 25px;
+  }
+
+  .rates h2{
+    font-size: 25px;
+  }
+
+  .map h2{
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   h1{
+    font-size: 25px;
+  }
+
+  .rates h2{
+    font-size: 25px;
+  }
+
+  .map h2{
     font-size: 25px;
   }
 
@@ -307,6 +334,23 @@ h1{
     left: 85%;
   }
 
+  .rates .container{
+    padding-left: 30px;
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+
+  .map .container{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .bottom h2{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 25px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -336,6 +380,17 @@ h1{
       left:86%;
     }
 
+    .rates .container{
+      padding-left: 30px;
+      margin-left: 4%;
+      margin-right: 2%;
+    }
+
+    .map .container{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -349,5 +404,16 @@ h1{
 
   .cloud-1{
     left: 2%;
+  }
+  .rates .container{
+    padding-left: 30px;
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+
+
+  .map .container{
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }

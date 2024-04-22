@@ -41,10 +41,10 @@ function Contact(){
                 <div className="contact">
                     <h2>Contact Us</h2>
                     <div className="container">
-                    <div className="card">
+                    <div className="card address">
                         <div className="items">
-                        <img width="60" height="60" src="https://img.icons8.com/color/96/address--v1.png" alt="address--v1"/>
-                        <p className='add'>Middle pelling, Pelling, Sikkim 737113</p>
+                            <img width="60" height="60" src="https://img.icons8.com/color/96/address--v1.png" alt="address--v1"/>
+                            <p className='add'>Middle pelling, Pelling, Sikkim 737113</p>
                         </div>
                     </div>
                     <div className="card " style={{height:'auto'}}>
