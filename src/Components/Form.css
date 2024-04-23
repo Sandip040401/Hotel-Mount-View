@@ -36,248 +36,91 @@
 }
 
 
+  @media(max-width: 575.98px) {
 
-
-@media (max-width:376px){
-    
     .booking-form{
         margin-left: 2%;
         margin-right: 1%;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: block;
     }
 
     .form-btn{
         margin-left: 30%;
     }
     
-    .checkindate{
-        margin-left: 69px;
-        width: 120px;
-    }
-
-    .checkoutdate{
-        margin-left: 59px;
-        width: 120px;
-    }
-
-    .parent{
-        width: 120px;
-        margin-left: 40px;
-    }
-
-    .child{
-        margin-left: 26px;
-        width: 120px;
-
-    }
-
-    .rooms{
-        margin-left: 40px;
-        width: 120px;
-
-    }
-}
-
- @media (min-width:376px) and (max-width: 575.98px) {
-
-    .booking-form{
-        margin-left: 2%;
-        margin-right: 1%;
-        flex-wrap: wrap;
+    .booking-form div{
+        display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
     }
 
-    .form-btn{
-        margin-left: 30%;
-    }
-    
-    .checkindate{
-        margin-left: 70px;
-        width: 140px;
-    }
-
-    .checkoutdate{
-        margin-left: 58px;
-        width: 140px;
-    }
-
-    .parent{
-        width: 140px;
-        margin-left: 40px;
-    }
-
-    .child{
-        margin-left: 26px;
-        width: 140px;
-
-    }
-
-    .rooms{
-        margin-left: 40px;
-        width: 140px;
-
+    .booking-form div input{
+        width: 80%;
     }
 
 } 
   
-@media (min-width: 576px) and (max-width: 700px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
 
     .booking-form{
         margin-left: 2%;
-        margin-right: 2%;
-        flex-wrap: wrap;
-        flex-direction: column;
+        margin-right: 1%;
+        display: block;
     }
 
     .form-btn{
         margin-left: 30%;
     }
     
-    .checkindate{
-        margin-left: 70px;
-        width: 300px;
-    }
-
-    .checkoutdate{
-        margin-left: 58px;
-        width: 300px;
-    }
-
-    .parent{
-        width: 300px;
-        margin-left: 40px;
-    }
-
-    .child{
-        margin-left: 26px;
-        width: 300px;
-
-    }
-
-    .rooms{
-        margin-left: 40px;
-        width: 300px;
-
-    }
-  }
-@media (min-width: 700px) and (max-width: 767.98px) {
-
-    .booking-form{
-        margin-left: 2%;
-        margin-right: 2%;
-        flex-wrap: wrap;
+    .booking-form div{
+        display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
     }
-
-    .form-btn{
-        margin-left: 30%;
-    }
-    
-    .checkindate{
-        margin-left: 70px;
-        width: 400px;
-    }
-
-    .checkoutdate{
-        margin-left: 58px;
-        width: 400px;
-    }
-
-    .parent{
-        width: 400px;
-        margin-left: 40px;
-    }
-
-    .child{
-        margin-left: 26px;
-        width: 400px;
-
-    }
-
-    .rooms{
-        margin-left: 40px;
-        width: 400px;
-
+    .booking-form div input{
+        width: 80%;
     }
   }
+
   
   @media (min-width: 768px) and (max-width: 991.98px) {
     .booking-form{
         margin-left: 2%;
-        margin-right: 2%;
-        flex-wrap: wrap;
-        flex-direction: column;
+        margin-right: 1%;
+        display: block;
     }
 
     .form-btn{
         margin-left: 30%;
     }
     
-    .checkindate{
-        margin-left: 70px;
-        width: 500px;
+    .booking-form div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
-
-    .checkoutdate{
-        margin-left: 58px;
-        width: 500px;
-    }
-
-    .parent{
-        width: 500px;
-        margin-left: 40px;
-    }
-
-    .child{
-        margin-left: 26px;
-        width: 500px;
-
-    }
-
-    .rooms{
-        margin-left: 40px;
-        width: 500px;
-
+    .booking-form div input{
+        width: 80%;
     }
   }
   
   @media (min-width: 992px) and (max-width: 1199.98px) {
     .booking-form{
         margin-left: 2%;
-        margin-right: 2%;
-        flex-wrap: wrap;
-        flex-direction: column;
+        margin-right: 1%;
+        display: block;
     }
 
     .form-btn{
         margin-left: 30%;
     }
     
-    .checkindate{
-        margin-left: 70px;
-        width: 700px;
+    .booking-form div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
-
-    .checkoutdate{
-        margin-left: 58px;
-        width: 700px;
+    .booking-form div input{
+        width: 80%;
     }
-
-    .parent{
-        width: 700px;
-        margin-left: 40px;
-    }
-
-    .child{
-        margin-left: 26px;
-        width: 700px;
-
-    }
-
-    .rooms{
-        margin-left: 40px;
-        width: 700px;
-
-    }
-  }
+  } 
