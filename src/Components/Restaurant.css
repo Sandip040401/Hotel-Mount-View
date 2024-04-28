@@ -65,10 +65,7 @@
     font-size: 25px;
   }
 
-  p{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  li{
+  .items p{
     font-family: 'Times New Roman', Times, serif;
   }
 }
@@ -82,10 +79,7 @@
   .restaurant h2{
     font-size: 25px;
   }
-  p{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  li{
+  .items p{
     font-family: 'Times New Roman', Times, serif;
   }
 }

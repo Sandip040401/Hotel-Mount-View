@@ -58,10 +58,7 @@
         width: 90%;
     }
 
-    p{
-        font-family: 'Times New Roman', Times, serif;
-      }
-      li{
+    .label-name{
         font-family: 'Times New Roman', Times, serif;
       }
 
@@ -88,10 +85,7 @@
         width: 90%;
     }
 
-    p{
-        font-family: 'Times New Roman', Times, serif;
-      }
-      li{
+    .label-name{
         font-family: 'Times New Roman', Times, serif;
       }
   }

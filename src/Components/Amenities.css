@@ -55,10 +55,7 @@
   .amenities h2{
     font-size: 25px;
   }
-  p{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  li{
+  .svg-text h3{
     font-family: 'Times New Roman', Times, serif;
   }
 }
@@ -71,10 +68,7 @@
   .amenities h2{
     font-size: 25px;
   }
-  p{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  li{
+  .svg-text h3{
     font-family: 'Times New Roman', Times, serif;
   }
 }
