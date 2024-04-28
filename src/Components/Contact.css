@@ -87,6 +87,10 @@
   .contact h2{
     font-size: 25px;
   }
+
+  .add{
+    font-family: cursive;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -100,6 +104,9 @@
   }
   .contact h2{
     font-size: 25px;
+  }
+  .add{
+    font-family: cursive;
   }
 }
 

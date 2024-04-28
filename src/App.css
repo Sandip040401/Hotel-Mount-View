@@ -292,10 +292,6 @@ h1{
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .rates .container ul li{
-    font-family: 'Times New Roman', Times, serif;
-  }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -364,10 +360,6 @@ h1{
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .rates .container ul li{
-    font-family: 'Times New Roman', Times, serif;
-  }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -408,12 +400,6 @@ h1{
       margin-right: 20%;
     }
 
-    p{
-      font-family: 'Times New Roman', Times, serif;
-    }
-    li{
-      font-family: 'Times New Roman', Times, serif;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
