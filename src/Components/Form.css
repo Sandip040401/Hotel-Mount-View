@@ -58,6 +58,13 @@
         width: 90%;
     }
 
+    p{
+        font-family: 'Times New Roman', Times, serif;
+      }
+      li{
+        font-family: 'Times New Roman', Times, serif;
+      }
+
 } 
   
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -80,6 +87,13 @@
     .booking-form div input{
         width: 90%;
     }
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+      }
+      li{
+        font-family: 'Times New Roman', Times, serif;
+      }
   }
 
   
@@ -102,6 +116,7 @@
     .booking-form div input{
         width: 90%;
     }
+    
   }
   
   @media (min-width: 992px) and (max-width: 1199.98px) {
