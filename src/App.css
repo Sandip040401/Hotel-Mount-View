@@ -288,10 +288,6 @@ h1{
     font-size: 25px;
   }
 
-  .bottom p{
-    font-family: 'Times New Roman', Times, serif;
-  }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -356,9 +352,6 @@ h1{
     font-size: 25px;
   }
 
-  .bottom p{
-    font-family: 'Times New Roman', Times, serif;
-  }
 
 }
 
