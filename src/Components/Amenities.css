@@ -33,12 +33,9 @@
   .svg-text{
     margin-top: 40px;
     margin-left: 20px;
-    transition: transform 0.5s ease;
   }
 
-  .svg-text:hover{
-    transform: scale(1.1);
-  }
+
   
 
   .svg-text h3{
@@ -56,11 +53,19 @@
     font-size: 25px;
   }
 
+  .svg-text h3{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .amenities .container .card {
     width: 100%;
+  }
+
+  .svg-text h3{
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .amenities h2{

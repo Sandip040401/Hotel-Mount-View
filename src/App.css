@@ -230,7 +230,9 @@ h1{
   h1{
     font-size: 20px;
   }
-
+  .rates .container ul li{
+    font-family: 'Times New Roman', Times, serif;
+  }
   .navbar ul li{
     font-size:small;
   }
@@ -288,13 +290,22 @@ h1{
     font-size: 25px;
   }
 
+  .bottom p{
+    font-family: 'Times New Roman', Times, serif;
+ }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   h1{
     font-size: 25px;
   }
-
+  .rates .container ul li{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .bottom p{
+    font-family: 'Times New Roman', Times, serif;
+ }
   .rates h2{
     font-size: 25px;
   }
@@ -323,8 +334,8 @@ h1{
   }
 
   .cloud-2{
-    height: 40px;
-    width: 60px;
+    height: 30px;
+    width: 50px;
     top: 10px;
   }
 
@@ -393,12 +404,15 @@ h1{
       margin-right: 20%;
     }
 
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   h1{
     font-size: 30px;
   }
+
+
 
   .cloud{
     left: 15%;

@@ -64,6 +64,9 @@
   .restaurant h2{
     font-size: 25px;
   }
+  .items p{
+    font-family: 'Times New Roman', Times, serif;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -71,6 +74,9 @@
     width: 100%;
     margin: 0;
     margin-bottom: 40px;
+  }
+  .items p{
+    font-family: 'Times New Roman', Times, serif;
   }
   .restaurant h2{
     font-size: 25px;
