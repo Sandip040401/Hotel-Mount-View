@@ -30,7 +30,7 @@ function App() {
         <button className='btn-theme'>
           <DarkMode/>
         </button>
-        <button className='btn-popup' onClick={scrollToContact}>Contact US</button>
+        {/* <button className='btn-popup' onClick={scrollToContact}>Contact US</button> */}
           <div className='suun'></div>
           <div className="cloud"></div>
           <div className="cloud-1"></div>
