@@ -5,7 +5,7 @@ import './Contact.css'
 function Contact(){
     const redirectToWhatsApp = () => {
         // Replace '1234567890' with the desired WhatsApp number
-        const phoneNumber = '916002180629';
+        const phoneNumber = '918399929297';
         
         // Construct the WhatsApp URL
         const whatsappUrl = `https://wa.me/${phoneNumber}`;
@@ -16,7 +16,7 @@ function Contact(){
     
       const redirectToPhone = () => {
         // Replace '1234567890' with the desired phone number
-        const phoneNumber = '6002180629';
+        const phoneNumber = '8399929297';
         
         // Construct the phone call URL
         const phoneUrl = `tel:${phoneNumber}`;
@@ -27,7 +27,7 @@ function Contact(){
     
       const redirectToGmail = () => {
         // Replace 'example@gmail.com' with the desired Gmail address
-        const email = 'iemsandip@gmail.com';
+        const email = 'subalsaha011@gmail.com';
         
         // Construct the Gmail compose mail URL
         const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;

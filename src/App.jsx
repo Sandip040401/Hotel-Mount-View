@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import HotelCheckinForm from './Components/Form';
 import DarkMode from './Components/Darkmode';
@@ -7,7 +7,14 @@ import Restaurant from './Components/Restaurant';
 import GoogleMapEmbed from './Components/Map';
 import Contact from './Components/Contact';
 
-function App() {  
+function App() {
+  const contactRef = useRef(null);
+
+  const scrollToContact = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
@@ -16,32 +23,32 @@ function App() {
         <div className='navbar'>
           <ul>
             <li>Home</li>
-            <li>About</li>
             <li>Gallary</li>
-            <li>Contact</li>
+            <li onClick={scrollToContact}>Contact</li>
           </ul>
         </div>
         <button className='btn-theme'>
           <DarkMode/>
         </button>
+        <button className='btn-popup' onClick={scrollToContact}>Contact US</button>
           <div className='suun'></div>
           <div className="cloud"></div>
           <div className="cloud-1"></div>
           <div className="cloud-2"></div>
           <div className="cloud-3"></div>
       </div>
-        <HotelCheckinForm/>
+      <HotelCheckinForm />
       <div className="bottom">
         <h2>About Mount View, Pelling</h2>
-        <p>Surrounded by <b><font size='4'>Virgin pine forest</font></b> and facing the majestic <b><font size='4'>Snow capped peaks</font></b> of the <b><font size='4'>Singalila range</font></b>,The Mount View Hotel, hosted on the hilltop of Pelling, Sikkim, revokes a personal rendezvous with the Himalayan range. The hotel serves as a vantage point for catching a glimpse of nature’s blessed creations like birds, sunrises and sunsets, culminating the perfect retreat coupled with a cozy old-world charm. We have, in offer the most elegant and expansive rooms which amalgamate modern amenities with an ambience reflecting everything.<br/><br/> <b><font size='4'>The Mount View Hotel</font></b> is providing the right blend of service and luxury. All-round excellence and unparalleled levels of service. Accommodation is available in neat and clean rooms, which are well appointed with modern in-room facilities.A distinctive feature of The Mount View Hotel is their highly motivated and well trained staff who provide exceptionally attentive, personalised and warm service. Mount View Hotel have established a reputation for redefining the paradigm of luxury and excellence.</p>
+        <p>Surrounded by <b><font size='4'>Virgin pine forest</font></b> and facing the majestic <b><font size='4'>Snow capped peaks</font></b> of the <b><font size='4'>Singalila range</font></b>,The Mount View Hotel, hosted on the hilltop of Pelling, Sikkim, revokes a personal rendezvous with the Himalayan range. The hotel serves as a vantage point for catching a glimpse of nature’s blessed creations like birds, sunrises and sunsets, culminating the perfect retreat coupled with a cozy old-world charm. We have, in offer the most elegant and expansive rooms which amalgamate modern amenities with an ambience reflecting everything.<br /><br /> <b><font size='4'>The Mount View Hotel</font></b> is providing the right blend of service and luxury. All-round excellence and unparalleled levels of service. Accommodation is available in neat and clean rooms, which are well appointed with modern in-room facilities.A distinctive feature of The Mount View Hotel is their highly motivated and well trained staff who provide exceptionally attentive, personalized and warm service. Mount View Hotel have established a reputation for redefining the paradigm of luxury and excellence.</p>
       </div>
-      <Amenities/>
-      <Restaurant/>
+      <Amenities />
+      <Restaurant />
       <div className="rates">
         <h2>Rates and Terms</h2>
         <div className="container">
           <ul>
-            <li>The Mount View Hotel room charges are between  Rs 3000/- to Rs 5000/-per day.</li>
+            <li>The Mount View Hotel room charges are between Rs 3000/- to Rs 5000/-per day.</li>
             <li>Foods, drinks charges are extra.</li>
             <li>Please inform Mount View Hotel in advance of your expected arrival time.</li>
             <li>Guests are required to show a photo identification and credit card upon check-in.</li>
@@ -52,11 +59,11 @@ function App() {
       <div className="map">
         <h2>How to Reach</h2>
         <div className="container">
-          <GoogleMapEmbed/>
+          <GoogleMapEmbed />
         </div>
       </div>
-      <Contact/>
-
+      <div ref={contactRef} />
+      <Contact />
       <div className="footer">
         <p>Made by Sandip</p>
       </div>

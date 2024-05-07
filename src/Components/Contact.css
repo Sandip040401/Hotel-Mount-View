@@ -91,12 +91,18 @@
   .add{
     font-family: cursive;
   }
+  .objects button{
+    font-family: 'Times New Roman', Times, serif;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .items p{
     font-size: 18px;
     margin-bottom: 10px;
+  }
+  .objects button{
+    font-family: 'Times New Roman', Times, serif;
   }
   .contact .container .card {
     width: 100%;
